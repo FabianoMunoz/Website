@@ -81,7 +81,6 @@ ul {
 
 .wrapper {
   height: 75vh;
-  /*This part is important for centering*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,7 +109,6 @@ ul {
 }
 
 
-/* Style all input fields */
 input {
   width: 100%;
   padding: 12px;
@@ -121,19 +119,19 @@ input {
   margin-bottom: 16px;
 }
 
-/* Style the submit button */
+
 input[type=submit] {
   background-color: #04AA6D;
   color: white;
 }
 
-/* Style the container for inputs */
+
 .container {
   background-color: #f1f1f1;
   padding: 20px;
 }
 
-/* The message box is shown when the user clicks on the password field */
+
 #message {
   display:none;
   background: #f1f1f1;
@@ -148,7 +146,7 @@ input[type=submit] {
   font-size: 18px;
 }
 
-/* Add a green text color and a checkmark when the requirements are right */
+
 .valid {
   color: green;
 }
@@ -159,7 +157,7 @@ input[type=submit] {
   content: "&#10004;";
 }
 
-/* Add a red text color and an "x" icon when the requirements are wrong */
+
 .invalid {
   color: red;
 }
@@ -197,14 +195,12 @@ input[type=submit] {
 .img-zoom-lens {
   position: absolute;
   border: 1px solid #d4d4d4;
-  /*set the size of the lens:*/
   width: 40px;
   height: 40px;
 }
 
 .img-zoom-result {
   border: 1px solid #d4d4d4;
-  /*set the size of the result div:*/
   width: 300px;
   height: 300px;
 }
